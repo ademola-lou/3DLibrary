@@ -1,0 +1,3 @@
+/mnt/c/Users/adene/3DLibrary/3DOPLibrary/public/wasm-library/build/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/adene/3DLibrary/3DOPLibrary/public/wasm-library/build/CMakeFiles/edit_cache.dir
+/mnt/c/Users/adene/3DLibrary/3DOPLibrary/public/wasm-library/build/CMakeFiles/main.dir

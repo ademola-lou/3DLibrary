@@ -1,0 +1,1 @@
+/mnt/c/Users/adene/3DLibrary/3DOPLibrary/public/wasm-library/emsdk/upstream/emscripten/em++  -O3 -DNDEBUG  -s ALLOW_MEMORY_GROWTH=1 -s WASM=1 -s DEMANGLE_SUPPORT=1 --bind @CMakeFiles/main.dir/objects1.rsp  -o index.js 
