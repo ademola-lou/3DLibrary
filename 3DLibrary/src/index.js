@@ -49,7 +49,7 @@ export function renderScene() {
 }
 
 renderScene().then((scene) => {
-    const url = "../public/assets/suzanne.obj";
+    const url = "https://rawcdn.githack.com/rezaali/webgl-sketches/master/models/bigguy.obj";
   
     readFile(url, (data) => {
         let { positions, cells } = objPars(data, null);
