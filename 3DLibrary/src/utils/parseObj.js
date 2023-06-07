@@ -1,4 +1,4 @@
-export function readFile( filePath: string, callback: any ): void {
+export function readFile( filePath, callback){
     var client = new XMLHttpRequest();
     client.open( 'GET', filePath );
     client.onreadystatechange = function() {
@@ -17,7 +17,7 @@ export function readFile( filePath: string, callback: any ): void {
     client.send();
 };
     
-export function objPars( input: string, opts: any): any {
+export function objPars( input, opts) {
     
     opts = opts ? opts : {};
     var scale = opts.scale ? opts.scale : 1.0;
