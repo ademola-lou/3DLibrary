@@ -1,4 +1,3 @@
-const { Module } = window;
 import { ArcRotateCamera } from "@babylonjs/core/Cameras/arcRotateCamera";
 import { Engine } from "@babylonjs/core/Engines/engine";
 import { HemisphericLight } from "@babylonjs/core/Lights/hemisphericLight";
@@ -54,7 +53,7 @@ renderScene().then((scene) => {
     readFile(url, (data) => {
         let { positions, cells } = objPars(data, null);
 
-        const polyMesh = new Module.PolyMesh();
+        const polyMesh = new global.Module.PolyMesh();
         for(let i = 0; i < positions.length; i++){
             polyMesh.addVertex(positions[i][0], positions[i][1], positions[i][2]);
         }
