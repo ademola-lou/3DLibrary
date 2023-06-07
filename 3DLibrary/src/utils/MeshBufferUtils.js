@@ -5,13 +5,7 @@ import { VertexData } from "@babylonjs/core/Meshes/mesh.vertexData";
 import { Scene } from "@babylonjs/core/scene";
 
 export const vertexData = new VertexData();
-interface MeshData {
-    positions: any [];
-    indices: any [];
-    normals: any [];
-    colors: any [];
-}
-export function updateMesh(targetMesh: Mesh, params: MeshData): void {
+export function updateMesh(targetMesh, params) {
     const positions = params.positions;
     const indices = params.indices;
     if(!params.normals){
@@ -25,7 +19,7 @@ export function updateMesh(targetMesh: Mesh, params: MeshData): void {
     vertexData.applyToMesh(targetMesh, true);
 }
 
-export function createMesh(scene: Scene, params: any): Mesh {
+export function createMesh(scene, params) {
     const mesh = new Mesh("custom_mesh", scene);
     updateMesh(mesh, params);
     mesh.material = new StandardMaterial("mat", scene);
