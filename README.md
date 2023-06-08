@@ -17,7 +17,7 @@ source ./emsdk_env.sh
 
 ### building wasm library (make sure you are in /wasm-library directory)
 
-compilimng cmake file and build
+compiling cmake file and build
 ```
 ./build.sh gener
 ```
