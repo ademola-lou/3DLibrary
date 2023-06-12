@@ -56,7 +56,7 @@ check build folder for index.js and index.wasm file
     }
     
     for(let j = 0; j < indices.length / 3; j++){
-      polyMesh.addFace([indices[i * 3], indices[i * 3 + 1], indices[i * 3 + 2])
+      polyMesh.addFace([indices[i * 3], indices[i * 3 + 1], indices[i * 3 + 2]])
     }
     
     //retrieve a position/indices data to update mesh
