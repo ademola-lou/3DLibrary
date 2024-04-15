@@ -1,4 +1,4 @@
-#CGAL wasm implementation
+# CGAL wasm implementation
 
 # How to build
 ## Linux
