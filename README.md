@@ -1,9 +1,9 @@
 # CGAL wasm implementation
 
 # How to build
-## Linux
 
-### install libraries
+
+### install libraries (Linux)
 ```cd 3DLibrary/wasm-library && ./install_libraries.sh ```
 
 ### install emsdk (https://emscripten.org/docs/getting_started/downloads.html)
